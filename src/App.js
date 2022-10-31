@@ -564,9 +564,9 @@
  const apikey = "ZX9EDARB4A2GBAQG2DP62DZJIP8VZ3NC26";
  const ADDRESS = "0xf5d25D8700C26C8F4E0DeDAa83179Af251431705";
  const endpoint = "https://api-testnet.bscscan.com/api";
-const nftpng = "http://127.0.0.1:8080/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1G5v/";
+//const nftpng = "http://127.0.0.1:8080/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1G5v/";
  
-// const nftpng = "https://ipfs.io/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1G5v/";
+const nftpng = "https://ipfs.io/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1G5v/";
  
  
  
