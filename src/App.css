@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+body {
+  background: #2d2d2d !important;
+}
+.row.foot {
+   
+  margin-top: 20px; 
+  border: 15px solid #515151;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+  border-style: double;
+}
+h2 {
+  background: #000;
+  margin-top: 20px;
+  padding: 20px;
+  border: 15px solid #515151;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+  border-style: double;
+}
+.row.items {
+  margin-top: 20px;
+}
+h2 {
+  padding: 20px 0;
+}
+.row.foot a {
+  padding: 20px;
+  color: #000;
+  background: #9f5906;
+  margin: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  border-style: double;
+}
+.head {
+  display: block;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #494949;
+  margin-bottom: 20px;
+  background: #000;
+  align-items: center;
+  background: #000;
+  margin-top: 20px;
+  padding: 20px;
+  border: 15px solid #515151;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+  border-style: double;
+}
+img.meta {
+  width: 40px;
+}
+h5.mb-0.ttnft {
+  color: #aeaeae;
+  font-weight: bold;
+  font-size: 23px;
+}
+button.btn.btn-primary {
+  background: #9f5906  !important;
+  color: #000 !important;
+  font-weight: bold;
+  border: none !important;
+  font-size: 20px;
+}
+.banner.col-md-4 {
+  border: 15px solid #515151;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+  border-style: double;
+}
+body {
+  color: #fff;
+}
+div#wallet-address {
+  padding: 20px;
+}
+.card {
+   
+  background: #000 !important;
+  
+  border: 15px solid #515151 !important;
+  
+  background: #000000;
+  border-radius: 15px;
+  border-style: double !important;
+}
+label { 
+  color: #fff;
+}
+input[type="number"] {
+  width: 100%;
+}
+button.enterb.btn.btn-primary {
+  width: 100%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.banner img {
+  width: 100%;
+}
+h4 {
+  font-size: 32px;
+  color: #94a024;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+input[type="number"] {
+  font-size: 20px;
+    font-weight: bold;
+    border: 15px solid #515151;
+    padding: 9px;
+    border-radius: 15px;
+    border-style: double;
+}
+form.gradient {
+  border: 15px solid #515151;
+  padding: 20px;
+  background: #000000;
+  border-radius: 15px;
+  border-style: double;
+}
+.banner.col-md-8 {
+  border: 1px solid #f00;
+  padding: 20px;
+  background: #000;
+  border-radius: 15px;
+}
+div#wallet-address {    padding: 20px;
+  color: #dddddd;
+}
+body h5 {
+  font-size: 32px;
+  color: #94a024 !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.head img {
+  width: 100%;
+  max-width: min-content;
+}
+.accordion-item {
+  background: none;
+  color: #ddd;
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+    background: none !important;
+  color: #f00 !important;
+}
+.accordion-item {
+  background: none !important;
+  color: #ddd;
+}
+h2.accordion-header button {
+  background: none;
+  color: #ddd;
+  font-size: 20px;
+  font-weight: bold;
+  border:none !important;
+}
+body .accordion-item:first-of-type .accordion-button {
+ border: none !important;
+}
+.accordion-body {
+  color: #ddd;
+}
+ul {
+  list-style: none;
+}
+label.pricenft {
+  color: #00ff62;
+  font-size: 31px;
+  padding: 20px 0;
+}
+button.enterb.btn.btn-primary {
+  padding: 20px 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+} 
+body {
+  color: #fff !important;
+}
+p.trunncate {
+  width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #0fe436;
+}
+button#walcon {
+  max-width: 178px;
+}
+button#walcon { 
+  overflow: hidden;
+}
+div#wallet-address {
+  overflow: hidden;
+} 
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button#walcon {
+    max-width: 102px;
+    overflow: hidden;
+  }
+  body .row {
+    margin: 0 !important;
+  }
+}
