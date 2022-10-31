@@ -645,7 +645,9 @@ const nftpng = "https://ipfs.io/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1
                  })
                  console.log(outputa.data)
              })
-            
+	      .then(response => {
+                 console.log(response)
+             }) 
              .catch(error => {
                  console.log(error.response)
              });
@@ -657,7 +659,13 @@ const nftpng = "https://ipfs.io/ipfs/QmPuJEXCpT58AejYzgYwRdXF9Yz1bUdk2hGPFaD31t1
                      nftdata: result
                  }) 
                  console.log(outputb.data)
-             })        
+             }) 
+	     .then(response => {
+                 console.log(response)
+             }) 
+             .catch(error => {
+                 console.log(error.response)
+             });
      }
 
      render() {
